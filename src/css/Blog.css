@@ -1,0 +1,138 @@
+.blog-main {
+    padding-top: 5rem;
+}
+
+.card {
+    height: 545px;
+}
+
+.top,
+.bottom  {
+    width: 85%;
+    margin: auto;
+}
+
+.card-img {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+}
+
+.card-img1 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/b-11.jpg.png);
+    background-repeat: no-repeat;
+}
+
+.card-img2 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/b-12.png);
+    background-repeat: no-repeat;
+}
+
+.card-img3 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background3.png);
+    background-repeat: no-repeat;
+}
+
+.card-img4 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background4.png);
+    background-repeat: no-repeat;
+} 
+
+.card-img5 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background5.png);
+    background-repeat: no-repeat;
+}
+
+.card-img6 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background6.png);
+    background-repeat: no-repeat;
+}
+
+.card-img7 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background7.png);
+    background-repeat: no-repeat;
+}
+
+.card-img8 {
+    height: 60%;
+    width: 100%;
+    background-image: url(../images/background8.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.card-content {
+    height: 40%;
+    width: 85%;
+}
+
+.images img {
+    width: 20px;
+    height: 20px;
+}
+
+.popular {
+    height: 540px;
+}
+
+.popularCard {
+    height: 100%;
+    /* width: 100%; */
+    background-image: url(../images/link5.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.popularCard1 {
+    height: 100%;
+    /* width: 100%; */
+    background-image: url(../images/link1.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.popularCard2 {
+    height: 100%;
+    background-image: url(../images/link2.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.popularCard3 {
+    height: 100%;
+    background-image: url(../images/link3.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.popular-main {
+    height: 412px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popular {
+        height: 1900px !important;
+        /* margin-bottom: 4rem !important; */
+    }
+
+    
+}
+
+
+

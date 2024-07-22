@@ -1,0 +1,17 @@
+.aisha {
+    background-color: inherit;
+}
+
+.btn-success {
+    --bs-btn-bg: inherit;
+    --bs-btn-border-color: inherit;
+    --bs-btn-hover-bg: inherit;
+    --bs-btn-active-bg: inherit;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-head {
+        display: none !important;
+    }
+}
