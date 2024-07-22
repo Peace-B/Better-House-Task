@@ -43,7 +43,7 @@ const Login = () => {
       if (data) {
         toast.success("Login successful");
         setTimeout(() => {
-          navigate('/');
+          navigate('/properties');
         }, 3000); // Redirect after 3 seconds
       } else {
         toast.error("Login failed. Please check your credentials and try again.");

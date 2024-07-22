@@ -85,7 +85,7 @@ const SignUp = () => {
         toast.success('Registration successful');
         setLoading(false);
         setTimeout(() => {
-          navigate('/');
+          navigate('/properties');
         }, 3000); // Redirect after 3 seconds
       } else {
         toast.error('Registration failed');
