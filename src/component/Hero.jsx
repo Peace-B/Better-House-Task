@@ -2,13 +2,13 @@ import React from 'react'
 import NavBar from "../component/NavBar"
 import Blog from './Blog'
 import Footer from './Footer'
-import "../css/Hero.css"
 import SideNav from './SideNav'
+import Background from "../images/mainbg.png" 
 
 const Hero = () => {
   return (
     <>
-    <div className='hero w-full h-full '>
+    <div style={{backgroundImage:   `url(${Background})`, backgroundSize: "cover"}} className='hero w-full h-full'>
         <NavBar/>
         <SideNav/>
         <div className="main-hero w-full h-screen xl:mt-44 xl:h-full flex flex-col gap-16 ">
