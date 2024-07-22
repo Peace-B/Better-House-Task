@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from "../component/NavBar"
 import Blog from './Blog'
 import Footer from './Footer'
-import SideNav from './SideNav'
+// import SideNav from './SideNav'
 import Background from "../images/mainbg.png" 
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
     <>
     <div style={{backgroundImage:   `url(${Background})`, backgroundSize: "cover"}} className='hero w-full h-full'>
         <NavBar/>
-        <SideNav/>
+        {/* <SideNav/> */}
         <div className="main-hero w-full h-screen xl:mt-44 xl:h-full flex flex-col gap-16 ">
            <div className="header pt-20 xl:w-4/5 xl:m-auto text-center flex flex-col gap-6 xl:pt-0">
             <h1 className='hero-head font-[black] text-xl xl:text-7xl text-white xl:font-bold xl:p-0'>Browse Our Properties</h1>
