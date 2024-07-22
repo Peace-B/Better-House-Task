@@ -40,7 +40,7 @@ const Hero = () => {
 
             <div className="three flex flex-col bg-white text-black h-20 justify-center items-center">
                 <h4 className='mb-1'>BEDROOM</h4>
-             ``   <div className="yea flex gap-8">
+               <div className="yea flex gap-8">
                     <button style={{height: "23px", width: '20px', border: "1px solid black", borderRadius: "50%",  display: 'flex', justifyContent: "center", alignItems: "center"}} onClick={decrement}>-</button>
                     <p>{bedroomCount}</p>
                     <button style={{ height: "23px", width: '20px', border: "1px solid black", borderRadius: "50%", display: 'flex', justifyContent: "center", alignItems: "center"}} onClick={increment}>+</button>
