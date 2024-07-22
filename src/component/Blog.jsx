@@ -18,8 +18,8 @@ const Blog = () => {
     <div>
         <div className="blog-main h-full w-full ">
 
-            <div className="blog-header w-full md:justify-between md:w-4/5 md:h-12 md:items-center md:flex md:m-auto lg:w-4/5 lg:h-9 lg:flex lg:justify-between lg:items-center lg:m-auto lg:mb-4">
-                <div className="right flex">
+            <div className="blog-header flex items-center justify-between pb-4 w-full md:justify-between md:w-4/5 md:h-12 md:items-center md:flex md:m-auto lg:w-4/5 lg:h-9 lg:flex lg:justify-between lg:items-center lg:m-auto lg:mb-4">
+                <div className="right flex flex-col xl:flex xl:flex-row">
                    <div className="rignt-img flex gap-2">
                    <img src={BlogImg} alt="" />
                    <p>More filter</p>

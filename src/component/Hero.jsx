@@ -23,7 +23,7 @@ const Hero = () => {
         <SideNav/>
         <div className="main-hero w-full h-screen xl:mt-44 xl:h-full flex flex-col gap-16 ">
            <div className="header pt-20 xl:w-4/5 xl:m-auto text-center flex flex-col gap-6 xl:pt-0">
-            <h1 className='hero-head mt-32 font-[black] text-4xl xl:text-7xl text-white xl:font-bold xl:p-0'>Browse Our Properties</h1>
+            <h1 className='hero-head mt-32 font-[black] text-4xl xl:text-7xl text-white xl:font-bold xl:p-0 xl:mt-0'>Browse Our Properties</h1>
             <p className='hero-para text-3xl xl:font-normal xl:text-2xl text-white '>Find your perfect home among our curated properties. Start <br /> browsing now!</p>
            </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
 
             <div className="three flex flex-col bg-white text-black h-20 justify-center items-center">
                 <h4 className='mb-1'>BEDROOM</h4>
-                <div className="yea flex gap-8">
+             ``   <div className="yea flex gap-8">
                     <button style={{height: "23px", width: '20px', border: "1px solid black", borderRadius: "50%",  display: 'flex', justifyContent: "center", alignItems: "center"}} onClick={decrement}>-</button>
                     <p>{bedroomCount}</p>
                     <button style={{ height: "23px", width: '20px', border: "1px solid black", borderRadius: "50%", display: 'flex', justifyContent: "center", alignItems: "center"}} onClick={increment}>+</button>

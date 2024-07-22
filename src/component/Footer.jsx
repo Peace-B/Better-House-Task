@@ -1,24 +1,30 @@
 import React from 'react'
 import Logo from "../images/Group 9282 (1).png"
+import Call from "../images/call.png"
+import Msg from "../images/smg.png"
+import Loc from "../images/Vector (23)....png"
 
 const Footer = () => {
   return (
     <>
      <div className="footer-main h-screen w-full bg-green-900 lg:h-96">
-        <ul className="section text-white items-center lg:flex justify-center lg:gap-x-36 lg:mt-32 lg:pt-5">
-          <li className='first flex flex-col lg:items-start gap-2'>
+        <ul className="section text-white lg:items-center lg:flex lg:justify-center lg:gap-x-36 lg:mt-32 lg:pt-5">
+          <li className='first flex flex-col lg:items-start lg:gap-2'>
             <img src={Logo} alt="" />
             <p>Discover, rent, and find your ideal home hassle-free <br />with BetaHouse. Take control of your rental journey today!</p>
-            <div className="contact-add">
+            <div className="contact-add flex items-center gap-2">
+              <img src={Loc} alt="" />
             <p>95 Tinubu Estate, Lekki, Lagos</p>
           </div>
-        <div className="contact-no">
+        <div className="contact-no flex items-center gap-2">
+          <img src={Call} alt="" />
             <p>+234 675 8935 675</p>
         </div>
 
-        <div className="msg">
+        <div className="msg flex items-center gap-2">
+        <img src={Msg} alt="" />
             <p>support@rentbetahouse.com</p>
-        </div>
+        </div> 
         </li>  
 
         <li className='l-One flex flex-col gap-2'>
